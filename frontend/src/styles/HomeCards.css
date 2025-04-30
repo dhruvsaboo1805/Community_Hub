@@ -1,0 +1,68 @@
+/* Container to hold all cards in a 3x grid layout */
+
+.home_card {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border: 1px solid #dfe4ea;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.home_card-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+.home_card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.home_card-title {
+  font-size: 18px;
+  color: #4b7bec;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.home_card-description {
+  font-size: 14px;
+  color: #8395a7;
+  margin-bottom: 10px;
+}
+
+.read-more-button {
+  align-self: start;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.read-more-button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.read-more-button:active {
+  background-color: #388e3c;
+  transform: translateY(1px);
+}
