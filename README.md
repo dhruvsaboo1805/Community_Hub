@@ -57,12 +57,13 @@ Built using the **MERN Stack**: React.js + Node.js + Express + MongoDB.
 
 ## ⚙️ Setup Instructions
 
+📄 License
+This project is licensed under the MIT License.
+
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/dhruvsaboo1805/Community_Hub.git
 
-📄 License
-This project is licensed under the MIT License.
 
 
